@@ -11,3 +11,65 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.head {
+  width: 100%;
+  background: #1b5e20;
+  color: white;
+  text-align: center;
+  padding: 1px;
+}
+
+.head h1 {
+  font-size: 3rem;
+}
+.panel {
+  background: #eceff1;
+  margin-top: 5%;
+  border-radius: 15px;
+  box-shadow: 1px 1px 8px black;
+}
+.panel p {
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  font-size: 1.5rem;
+}
+.btnConsulta {
+  padding: 15px 30px;
+  border-radius: 10px;
+  background: #1b5e20;
+  color: white;
+  margin-top: 20px;
+  border-color: #1b5e20;
+}
+.btnConsulta:hover {
+  background: #00c853;
+  border-color: #00c853;
+  cursor: pointer;
+}
+.panel1 {
+  background: white;
+  margin-top: 5%;
+  border-radius: 15px;
+  box-shadow: 1px 1px 8px black;
+}
+.panel1 h1 {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+}
+.btnBack {
+  background: #b71c1c;
+  border: 1px solid #b71c1c;
+  padding: 15px 30px;
+  color: white;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+.btnBack:hover {
+  background: #e57373;
+  border: 1px solid #e57373;
+  color: black;
+  cursor: pointer;
+}
